@@ -16,6 +16,9 @@ class Anagram
       end
     end
     matching
+    
+    # array.select {|x| x.split("").sort == @name.split("").sort}
+
   end
   
 end
